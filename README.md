@@ -2,10 +2,10 @@
 
 kubernetes and helm for a demo guestbook application
 
-##### prerequisites:
+#### prerequisites:
 docker, minikube, kubectl and helm installed locally
 
-deploy client, api, and DB just by:
+#### deploy client, api, and DB just by:
 ```shell
 $ helm install demo-guestbook guestbook
 ```
@@ -19,7 +19,7 @@ add to `/etc/hosts`:
 
 see the local app live at: http://client.local/
 
-remove all by:
+#### remove all by:
 ```shell
 $ helm uninstall demo-guestbook
 ```
