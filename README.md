@@ -14,6 +14,8 @@ add to `/etc/hosts`:
 192.168.49.2 api.local
 ```
 
+see the app live at: http://client.local/
+
 remove all by:
 ```shell
 $ helm uninstall demo-guestbook
