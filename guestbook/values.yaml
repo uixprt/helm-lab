@@ -1,0 +1,23 @@
+backend:
+  secret:
+    mongodb_uri:
+      username: admin
+      password: password
+  ingress:
+    enabled: false
+
+frontend:
+  ingress:
+    enabled: false
+
+ingress:
+  hosts:
+    - hosts:
+        domain: client.mini.local
+        chart: frontend
+    - hosts:
+        domain: api.mini.local
+        chart: backend
+
+
+

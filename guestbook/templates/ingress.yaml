@@ -1,0 +1,7 @@
+apiVersion:extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name}}-ingress
+spec:
+  rules:
+  {{- range .Values.ingress.hosts}}
