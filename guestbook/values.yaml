@@ -5,19 +5,15 @@ backend:
       password: password
   ingress:
     enabled: false
-
 frontend:
   ingress:
     enabled: false
 
 ingress:
   hosts:
-    - hosts:
+    - host:
         domain: client.mini.local
         chart: frontend
-    - hosts:
+    - host:
         domain: api.mini.local
         chart: backend
-
-
-

@@ -1,4 +1,4 @@
-Congratulations ! You installed {{ .Chart.Name }} chart sucessfully.
+Congratulations ! You installed {{ .Chart.Name }} chart successfully.
 Release name is {{ .Release.Name }}
 
 You can access the Guestbook application at the following urls :
